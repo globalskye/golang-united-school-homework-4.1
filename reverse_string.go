@@ -9,7 +9,8 @@ func ReverseString(input string) (output string) {
 		return input
 	}
 	result := []rune(input)
-	i := len(input) + 1
+
+	i := len([]rune(input)) + 1
 	for {
 		if i != 1 {
 			//	i--
